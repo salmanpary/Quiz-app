@@ -1,5 +1,6 @@
 class Minhaj{
     final int id;
     final String title;
-    Minhaj(this.id, this.title);
+    final String url;
+    Minhaj(this.id, this.title,this.url);
 }
